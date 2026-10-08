@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Mobiles</title>
+    <link href="common.css" rel="stylesheet"/>
+    <link href="images/image1.jpg" rel="icon"/>
+    <style>
+        #main section{
+            height: 500px;
+            width: 500px;
+            border : 1px solid black;
+
+        }
+        #main section div{
+            padding: 10px;
+            background-color:red;
+            width: 100px;
+            color: azure;
+            animation-name: mb1;
+            animation-duration:  3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes mb1{
+            from{
+                transform: translateX(0);
+                background-color: pink;
+            }
+            to{
+                transform: translateY(300px);
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/image1.jpg" alt ="no image"/>
+        <h1>BHARATHI MOBILES</h1>
+        <div><a href="home.html">Home</a></div>
+    </header> 
+    <artical id="main">
+        <h2>Animation Demo</h2>
+        <section>
+            <div>Moblie</div>
+        </section>
+        
+    </artical>
+        <footer>
+            Copyrights reserved @copy:2026
+        </footer>
+</body>
+</html>
